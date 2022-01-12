@@ -1,4 +1,4 @@
-# WebsiteChernival2022
+# Website Chernival 2022
 
 ## English
 This website was created for the 2022 Chernival, an annual event from the ITS Chemical Engineering Department which is used for them to promote their events and get sponsors.
