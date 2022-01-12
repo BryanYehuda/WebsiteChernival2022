@@ -1,0 +1,19 @@
+{
+    "name": "Website Chernival 2022",
+    "short_name": "Chernival 2022",
+    "description": "2022 Chernival, an annual event from the ITS Chemical Engineering Department",
+    "theme_color": "#336BB8",
+    "background_color": "#336BB8",
+    "display": "standalone",
+    "icons": [{
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
