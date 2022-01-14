@@ -18,11 +18,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/favicon-16x16.png">
     <link rel="mask-icon" href="public/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <!-- font-family: 'Poppins', sans-serif; for CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- font-family: 'Poppins', sans-serif; for CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -34,14 +32,14 @@
 </head>
 
 <body>
-
+    <!-- Nav Starts -->
     <nav class="navbar navbar-expand-md">
         <a class="navbar-brand" href="#">
-            <img src="public/images/logo/LogoChernival.png" alt="Logo Chernival">
+            <img src="public/images/logo/LogoChernival.png" alt="Logo Chernival" loading="lazy">
         </a>
         <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><img src="public/images/HomeAsset/Group31.png"></span>
-            <span class="close"><img src="public/images/HomeAsset/Group32.png"></span>
+            <span class="navbar-toggler-icon"><img src="public/images/HomeAsset/Group31.png" loading="lazy"></span>
+            <span class="close"><img src="public/images/HomeAsset/Group32.png" loading="lazy"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -63,35 +61,93 @@
             </ul>
         </div>
     </nav>
+    <!-- Nav Ends -->
 
-    <div class="container col-xxl-8 px-4 py-5 hero">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-12 col-sm-12 col-lg-6">
-                <img src="public/images/HomeAsset/Group4.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-12 col-sm-12 col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Chemical Engineering Innovation Festival 2022</h1>
-                <p class="lead">“Discharging innovation through youth collaboration”</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #EA4E34; border-color: #EA4E34;">Explore More</button>
+    <!-- hero Starts -->
+    <section class="hero">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <img src="public/images/HomeAsset/Group4.png" class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Chemical Engineering Innovation Festival 2022</h1>
+                    <p class="lead">“Discharging innovation through youth collaboration”</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #EA4E34; border-color: #EA4E34;">Explore More</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Hero Ends -->
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="public/images/logo/LogoChernival.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="public/images/logo/LogoChernival.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="public/images/logo/LogoChernival.png" alt="Third slide">
+    <!-- About Us Starts -->
+    <section class="about-us">
+        <div class="container">
+            <div class="card text-center col-lg-8 offset-lg-2 bg-transparent">
+                <div class="card-header text-center">
+                    <img src="public/images/HomeAsset/aboutus.png" class="mx-lg-auto img-fluid align-items-center justify-content-center" width="150" loading="lazy">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Chernival is an annual series of events which in this year consists of National OlymPiad and innovation challEnge of Chemical engineering (NOPEC) 2022, Indonesia Chemical Reaction Car Competition (ICRCC) 2021, and Closing Event Chernival
+                        which consists CHERNIVAL Got Talent & CHERNIVAL Bazaar. Chernival is the biggest agenda by the students of Chemical Engineering Department FT-IRS ITS. With the goal to participate in humanity, we hope to fulfill it by holding series
+                        of events on Chernival 2021.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section><br><br><br><br>
+    <!-- About Us Ends -->
+
+    <!-- Whats Inside Starts -->
+    <section class="whats-inside">
+        <div class="container">
+            <div class="card text-center col-lg-8 offset-lg-2 bg-transparent">
+                <div class="card-header text-center">
+                    <img src="public/images/HomeAsset/whatsinside.png" class="mx-lg-auto img-fluid align-items-center justify-content-center" width="400" loading="lazy">
+                </div>
+                <div class="card-body">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h3>NOPEC</h3>
+                                <img class="d-block w-100" src="public/images/HomeAsset/Nopec.png" alt="First slide"><br>
+                                <h3>January-February</h3>
+                                <p class="card-text">National OlymPiad and innovation challEnge of Chemical engineering (NOPEC) is one of the biggest competition in Indonesia which is held for senior high school students who are curious about Chemical Engineering and want
+                                    to challenge themselves to aim higher.</p>
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #EA4E34; border-color: #EA4E34;">View Details</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>ICRCC</h3>
+                                <img class="d-block w-100" src="public/images/HomeAsset/ICRCC.png" alt="Second slide"><br>
+                                <h3>March-May</h3>
+                                <p class="card-text">Indonesia Chemical Reaction Car Competition is Reaction Car competition with objective is to create car prototype that could be run by chemical reaction through the specified distance while carrying specified load. And
+                                    also poster presentation competition and many more additional competition.</p>
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #EA4E34; border-color: #EA4E34;">View Details</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>Closing Event</h3>
+                                <img class="d-block w-100" src="public/images/HomeAsset/Closing.png" alt="Third slide"><br>
+                                <h3>April-June</h3>
+                                <p class="card-text">The closing event of CHERNIVAL 2022 in this year consists of CHERNIVAL Got Talent & CHERNIVAL Bazaar. This event aims to introduce the Department of Chemical Engineering FT-IRS ITS to the public through several series of
+                                    cool events.</p>
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #EA4E34; border-color: #EA4E34;">View Details</button>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br><br><br>
+    <!-- Whats Inside Ends -->
 
     <!-- Footer Starts -->
 

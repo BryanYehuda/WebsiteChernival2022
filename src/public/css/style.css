@@ -70,3 +70,32 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+
+
+/* Cards */
+
+.card {
+    border: 10px solid rgba(127, 69, 160, 0.35);
+    border-radius: 25px;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: transparent;
+    padding: 0px 0px;
+    margin-bottom: -10px;
+}
+
+.card-header img {
+    margin-top: -35px;
+}
+
+.card-body p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.card-body h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
