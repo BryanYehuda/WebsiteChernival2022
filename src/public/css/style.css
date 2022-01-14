@@ -100,9 +100,13 @@ body {
     font-weight: 600;
 }
 
+.down {
+    margin-top: -100px;
+}
 
-/* Icons */
 
-ion-icon {
-    font-size: 64px;
+/* Links */
+
+a {
+    color: black;
 }
