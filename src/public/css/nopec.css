@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(161, 45, 253, 0.25) 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #336BB859;
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.navbar-nav .active {
+    color: #F5E2B3 !important;
+}
+
+.navbar-nav .border-bottom {
+    border-bottom: 2px solid #F5E2B3 !important;
+}
+
+.nav-link:hover {
+    color: #F5E2B3;
+}
+
+.navbar-toggler>.close {
+    display: inline;
+}
+
+.navbar-toggler.collapsed>.close,
+.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display: none;
+}
+
+
+/* Hero */
+
+.hero img {
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.hero p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.hero button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+/* Cards */
+
+.card {
+    border: 10px solid rgba(127, 69, 160, 0.35);
+    border-radius: 25px;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: transparent;
+    padding: 0px 0px;
+    margin-bottom: -10px;
+}
+
+.card-header img {
+    margin-top: -35px;
+}
+
+.card-body p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.card-body h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.down {
+    margin-top: -100px;
+}
+
+
+/* Links */
+
+a {
+    color: black;
+}
