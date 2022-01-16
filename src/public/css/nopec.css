@@ -8,6 +8,14 @@ body {
     background: radial-gradient(50% 50% at 50% 50%, rgba(161, 45, 253, 0.25) 0%, rgba(196, 196, 196, 0) 100%);
 }
 
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #21242d url('../loader/loadingwebsiterev.gif') no-repeat center;
+    z-index: 999;
+}
+
 
 /* Navbar */
 
