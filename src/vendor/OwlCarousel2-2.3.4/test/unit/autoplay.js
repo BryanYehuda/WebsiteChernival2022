@@ -1,39 +1,39 @@
 module('Autoplay tests');
 
 function FakeClock() {
-	// Instantiate a new controllable clock which overrides the built in Date
-	// class on construction.
-	var value = 1;
+  // Instantiate a new controllable clock which overrides the built in Date
+  // class on construction.
+  let value = 1;
 
-	this.tick = function(duration) {
-		value += duration;
-	};
-	// TODO: This is broken and has to be fixed in the near future
-	this.Date = function() {
-		this.getTime = function() {
-			return value;
-		}
-	}
+  this.tick = function (duration) {
+    value += duration;
+  };
+  // TODO: This is broken and has to be fixed in the near future
+  this.Date = function () {
+    this.getTime = function () {
+      return value;
+    };
+  };
 }
 
 function change_timeout(autoplay, first, second, wait) {
-	var clock = new FakeClock();
+  const clock = new FakeClock();
 
-	// This is a helper function to test multiple consecutive play calls with
-	// different timeout values. Four steps will be completed by this function:
+  // This is a helper function to test multiple consecutive play calls with
+  // different timeout values. Four steps will be completed by this function:
 
-	// 1. The autoplay will be played in a stopped state with the first timeout.
-	autoplay.stop();
-	autoplay.play(first);
+  // 1. The autoplay will be played in a stopped state with the first timeout.
+  autoplay.stop();
+  autoplay.play(first);
 
-	// 2. Time will be forwarded a given wait time.
-	clock.tick(wait);
+  // 2. Time will be forwarded a given wait time.
+  clock.tick(wait);
 
-	// 3. The autoplay will be paused.
-	autoplay.pause();
+  // 3. The autoplay will be paused.
+  autoplay.pause();
 
-	// 4. The autoplay will be played with the second timeout.
-	autoplay.play(second);
+  // 4. The autoplay will be played with the second timeout.
+  autoplay.play(second);
 }
 
 // test('stopping the autoplay timer', function() {
