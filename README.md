@@ -7,7 +7,7 @@
 - This website has been validated by the W3C HTML Validator    
 ![HTML Validator Badge](https://www.w3.org/Icons/valid-html401) ![HTML Validator Badge](https://www.w3.org/Icons/valid-html401-blue)
 
-This website was created for the 2022 Chernival, an annual event from the ITS Chemical Engineering Department which is used for them to promote their events and get sponsors.To take the Source Code from the Front End Website, you can directly open it from the SRC folder.
+This website was created for the 2022 Chernival, an annual event from the ITS Chemical Engineering Department which is used for them to promote their events and get sponsors. To take the Source Code from the Front End Website, you can directly open it from the SRC folder.
 
 This Repository has **MIT License.**   
 This license allows the user to make any changes to the program code. This license only requires the user to include the license and author's copyright in the redistributed code and there is no prohibition against using the trademark of the original author. In addition, the user also has no right to sue the manufacturer when there is damage to the software.
