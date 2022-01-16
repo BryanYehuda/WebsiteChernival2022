@@ -105,7 +105,7 @@ body {
 }
 
 
-/* Links */
+/* Carousel */
 
 a {
     color: black;
@@ -130,4 +130,20 @@ a {
 .register {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Row */
+
+.col-xs-2 {
+    color: #FFF;
+}
+
+.col-half-offset {
+    margin-left: 4.166666667%
 }
