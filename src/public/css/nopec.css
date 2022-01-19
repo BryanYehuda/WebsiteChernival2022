@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(161, 45, 253, 0.25) 0%, rgba(196, 196, 196, 0) 100%);
+    background-image: url('../images/background/BackgroundNOPECDesktop.png');
 }
 
 #loader {
