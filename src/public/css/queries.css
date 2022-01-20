@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .lead {
+        font-size: 19px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    .lead {
+        font-size: 18px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    .faq {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    .lead {
+        font-size: 17px;
+    }
+    .card-text {
+        font-size: 13px;
+    }
+    .btn {
+        font-size: 17px;
+    }
+}
