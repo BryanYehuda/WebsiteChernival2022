@@ -113,6 +113,10 @@ h5 {
     font-weight: 600;
 }
 
+.card-title {
+    padding-bottom: 70px;
+}
+
 .down {
     margin-top: -100px;
 }
@@ -134,10 +138,17 @@ a {
 
 .slick-prev:before {
     font-size: 20px !important;
+    color: black;
 }
 
 .slick-next:before {
     font-size: 20px !important;
+    color: black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
 }
 
 
