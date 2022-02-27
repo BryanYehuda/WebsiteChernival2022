@@ -24,7 +24,7 @@ h5 {
 /* Navbar */
 
 .navbar {
-    background-color: #336BB859;
+    background-color: #FFBA39CC;
     padding: 10px 20px;
 }
 
@@ -87,7 +87,7 @@ h5 {
 /* Cards */
 
 .card {
-    border: 10px solid rgba(127, 69, 160, 0.35);
+    border: 10px solid rgba(254, 46, 36, 0.35);
     border-radius: 25px;
     margin: 5px;
 }
@@ -119,36 +119,6 @@ h5 {
 
 .down {
     margin-top: -100px;
-}
-
-
-/* Carousel */
-
-a {
-    color: black;
-}
-
-.carousel-control-prev-icon-change {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-next-icon-change {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-.slick-prev:before {
-    font-size: 20px !important;
-    color: black;
-}
-
-.slick-next:before {
-    font-size: 20px !important;
-    color: black;
-}
-
-.slick-prev:before,
-.slick-next:before {
-    color: black !important;
 }
 
 
