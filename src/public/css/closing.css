@@ -126,3 +126,21 @@ body {
 a {
     color: black;
 }
+
+
+/* Button */
+
+.btn-hover {
+    background-color: #FFCD50;
+    border-color: #FFCD50;
+    margin: 5px;
+    color: #372161;
+    font-weight: 700;
+}
+
+.btn-hover:hover {
+    background-color: #372161;
+    border-color: #372161;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
