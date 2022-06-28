@@ -1,77 +1,163 @@
 @media only screen and (max-width: 1200px) {
     h1 {
-        font-size: 38px;
+        font-size: 38px!important;
     }
     h3 {
-        font-size: 26px;
+        font-size: 26px!important;
     }
     h5 {
-        font-size: 15px;
+        font-size: 15px!important;
     }
     .lead {
-        font-size: 19px;
+        font-size: 19px!important;
     }
     .card-text {
-        font-size: 15px;
+        font-size: 15px!important;
+    }
+    .important-link a {
+        font-size: 23px!important;
+    }
+    #buy-ticket a {
+        font-size: 36px!important;
+    }
+    #charity a {
+        font-size: 36px!important;
+    }
+    #highlight btn {
+        font-size: 28px!important;
+    }
+    .lead-c {
+        font-size: 16px!important;
     }
 }
 
 @media only screen and (max-width: 992px) {
     h1 {
-        font-size: 36px;
+        font-size: 36px!important;
     }
     h2 {
-        font-size: 30px;
+        font-size: 30px!important;
     }
     h3 {
-        font-size: 22px;
+        font-size: 22px!important;
     }
     h4 {
-        font-size: 22px;
+        font-size: 22px!important;
     }
     .lead {
-        font-size: 18px;
+        font-size: 18px!important;
     }
     h5 {
-        font-size: 20px;
+        font-size: 20px!important;
     }
     .card-text {
-        font-size: 14px;
+        font-size: 14px!important;
     }
     .btn {
         font-size: 18px;
     }
     .faq {
-        font-size: 15px;
+        font-size: 14px!important;
+    }
+    .hero a {
+        font-size: 22px!important;
+    }
+    .important-link a {
+        font-size: 20px!important;
+    }
+    .lead-c {
+        font-size: 15px!important;
+    }
+    #buy-ticket a {
+        font-size: 32px!important;
+    }
+    #charity a {
+        font-size: 32px!important;
+    }
+    #highlight btn {
+        font-size: 26px!important;
     }
 }
 
 @media only screen and (max-width: 720px) {
     h2 {
-        font-size: 26px;
+        font-size: 26px!important;
+    }
+    .lead-c {
+        font-size: 14px!important;
+    }
+    #highlight btn {
+        font-size: 23px!important;
+    }
+    .faq {
+        font-size: 13px!important;
     }
 }
 
 @media only screen and (max-width: 540px) {
     h1 {
-        font-size: 34px;
+        font-size: 34px!important;
     }
     h2 {
-        font-size: 24px;
+        font-size: 24px!important;
     }
     h3 {
-        font-size: 23px;
+        font-size: 23px!important;
     }
     h5 {
-        font-size: 18px;
+        font-size: 18px!important;
     }
     .lead {
-        font-size: 17px;
+        font-size: 17px!important;
     }
     .card-text {
-        font-size: 13px;
+        font-size: 13px!important;
     }
     .btn {
         font-size: 17px;
+    }
+    .hero a {
+        font-size: 20px!important;
+        margin-right: 10px!important;
+        margin-bottom: 15px!important;
+    }
+    .important-link a {
+        font-size: 16px!important;
+    }
+    .lead-c {
+        font-size: 13px!important;
+    }
+    #buy-ticket a {
+        font-size: 30px!important;
+    }
+    #charity a {
+        font-size: 30px!important;
+    }
+    #highlight btn {
+        font-size: 20px!important;
+    }
+    .faq {
+        font-size: 12px!important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .important-link a {
+        font-size: 12px!important;
+    }
+    .lead-c {
+        font-size: 11px!important;
+    }
+    #buy-ticket a {
+        font-size: 26px!important;
+    }
+    #charity a {
+        font-size: 26px!important;
+    }
+    #highlight btn {
+        font-size: 16px!important;
+    }
+    .faq {
+        font-size: 11px!important;
     }
 }
