@@ -15,10 +15,10 @@
         font-size: 15px!important;
     }
     .important-link a {
-        font-size: 23px!important;
+        font-size: 19px!important;
     }
     #buy-ticket a {
-        font-size: 36px!important;
+        font-size: 28px!important;
     }
     #charity a {
         font-size: 36px!important;
@@ -60,16 +60,16 @@
         font-size: 14px!important;
     }
     .hero a {
-        font-size: 22px!important;
+        font-size: 19px!important;
     }
     .important-link a {
-        font-size: 20px!important;
+        font-size: 18px!important;
     }
     .lead-c {
         font-size: 15px!important;
     }
     #buy-ticket a {
-        font-size: 32px!important;
+        font-size: 26px!important;
     }
     #charity a {
         font-size: 32px!important;
@@ -117,7 +117,7 @@
         font-size: 17px;
     }
     .hero a {
-        font-size: 20px!important;
+        font-size: 18px!important;
         margin-right: 10px!important;
         margin-bottom: 15px!important;
     }
@@ -128,7 +128,7 @@
         font-size: 13px!important;
     }
     #buy-ticket a {
-        font-size: 30px!important;
+        font-size: 24px!important;
     }
     #charity a {
         font-size: 30px!important;
@@ -149,7 +149,7 @@
         font-size: 11px!important;
     }
     #buy-ticket a {
-        font-size: 26px!important;
+        font-size: 22px!important;
     }
     #charity a {
         font-size: 26px!important;
@@ -159,5 +159,11 @@
     }
     .faq {
         font-size: 11px!important;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .important-link a {
+        font-size: 10px!important;
     }
 }
