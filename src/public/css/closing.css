@@ -64,13 +64,13 @@ body {
     margin-bottom: 50px;
 }
 
-.hero h1 {
+.hero h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #FBB03B;
 }
 
-.hero h4 {
+.hero h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #FBB03B;
@@ -87,6 +87,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #ffffff;
+    font-size: 18px;
 }
 
 .hero button {

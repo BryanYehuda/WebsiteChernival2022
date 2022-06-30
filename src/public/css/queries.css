@@ -77,11 +77,35 @@
     #highlight btn {
         font-size: 26px!important;
     }
+    #guest-star .guest-1 {
+        width: 80%!important;
+    }
+    #guest-star .guest-2 {
+        width: 50%!important;
+    }
+    #guest-star .guest-3 {
+        width: 70%!important;
+    }
+    #guest-star .guest-4 {
+        width: 60%!important;
+    }
+    #guest-star .guest-5 {
+        width: 70%!important;
+    }
+    .highlight-img {
+        width: 100%!important;
+    }
+    .img-charity {
+        width: 100%!important;
+    }
 }
 
 @media only screen and (max-width: 720px) {
     h2 {
         font-size: 26px!important;
+    }
+    h4 {
+        font-size: 20px!important;
     }
     .lead-c {
         font-size: 14px!important;
@@ -103,6 +127,9 @@
     }
     h3 {
         font-size: 23px!important;
+    }
+    h4 {
+        font-size: 19px!important;
     }
     h5 {
         font-size: 18px!important;
