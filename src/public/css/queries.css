@@ -39,6 +39,22 @@
     #merchandise a {
         font-size: 28px!important;
     }
+    .supported-by-logo-pc {
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+    }
+    .grab-logo {
+        margin-top: -40px!important;
+        padding-bottom: 50px!important;
+    }
+    .hokben-logo {
+        margin-top: -30px!important;
+        padding-bottom: 30px!important;
+    }
+    .lasika-logo {
+        margin-top: -20px!important;
+        padding-bottom: 35px!important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -120,6 +136,22 @@
     }
     #merchandise a {
         font-size: 26px!important;
+    }
+    .supported-by-logo-pc {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .grab-logo {
+        margin-top: -80px!important;
+        padding-bottom: 40px!important;
+    }
+    .hokben-logo {
+        margin-top: -30px!important;
+        padding-bottom: 30px!important;
+    }
+    .lasika-logo {
+        margin-top: -20px!important;
+        padding-bottom: 35px!important;
     }
 }
 
